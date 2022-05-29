@@ -1,4 +1,4 @@
-# MLOps Zoomcamp
+# MLOps Zoomcamp. Homeworks and notes.
 
 <a href="https://github.com/DataTalksClub/mlops-zoomcamp">
   <img src="media/banner.png">
