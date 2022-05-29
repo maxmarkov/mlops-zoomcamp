@@ -1,36 +1,41 @@
 {
   "module": {
-    "number": 1,
-    "title": "Introduction"
+    "number": 2,
+    "title": "Experiment tracking and model management"
   },
   "units": [
     {
       "number": 1,
-      "title": "Introduction",
-      "youtube": "https://www.youtube.com/watch?v=s0uaFZSzwfI"
+      "title": "Experiment tracking intro",
+      "youtube": "https://www.youtube.com/watch?v=MiA7LQin9c8"
     },
     {
       "number": 2,
-      "title": "Environment preparation",
-      "youtube": "https://www.youtube.com/watch?v=IXSiYkP23zo"
+      "title": "Getting started with MLflow",
+      "youtube": "https://www.youtube.com/watch?v=cESCQE9J3ZE"
     },
     {
       "number": 3,
-      "title": "(Optional) Training a ride duration prediction model",
-      "youtube": "https://www.youtube.com/watch?v=iRunifGSHFc"
+      "title": "Experiment tracking with MLflow",
+      "youtube": "https://www.youtube.com/watch?v=iaJz-T7VWec"
     },
     {
       "number": 4,
-      "title": "Course overview",
-      "youtube": "https://www.youtube.com/watch?v=teP9KWkP6SM"
+      "title": "Model management",
+      "youtube": "https://www.youtube.com/watch?v=OVUPIX88q88"
     },
     {
       "number": 5,
-      "title": "MLOps maturity model",
-      "youtube": "https://www.youtube.com/watch?v=XwTH8BDGzYk"
+      "title": "Model registry",
+      "youtube": "https://www.youtube.com/watch?v=TKHU7HAvGH8"
     },
     {
       "number": 6,
+      "title": "MLflow in practice",
+      "youtube": ""
+    },
+    {
+      "number": 7,
       "title": "Homework",
       "youtube": ""
     }
