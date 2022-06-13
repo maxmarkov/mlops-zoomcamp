@@ -7,7 +7,7 @@
 ## Notes
 
 - [X] Module 1. Introduction. Data exploration.
-- [X] Module 2. MLFlow. Experiment tracking and model management.
+- [ ] Module 2. MLFlow. Experiment tracking and model management.
 - [ ] Module 3. Prefect. Orchestration and ML Pipelines
 - [ ] Module 4. Model Deployment
 - [ ] Module 5. Model Monitoring
@@ -18,7 +18,7 @@
 
 - [X] Module 1. [Notebook](https://github.com/maxmarkov/mlops-zoomcamp/blob/master/homeworks/WEEK-1/01-homework.ipynb)
 - [X] Module 2. [Notebook](https://github.com/maxmarkov/mlops-zoomcamp/blob/master/homeworks/WEEK-2/02-homework.ipynb)
-- [ ] Module 3.
+- [X] Module 3. [Notebook](https://github.com/maxmarkov/mlops-zoomcamp/blob/master/homeworks/WEEK-3/03-homework.ipynb)
 - [ ] Module 4.
 - [ ] Module 5.
 - [ ] Module 6.
