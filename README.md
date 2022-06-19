@@ -18,7 +18,7 @@
 
 - [X] Module 1. [Notebook](https://github.com/maxmarkov/mlops-zoomcamp/blob/master/homeworks/WEEK-1/01-homework.ipynb)
 - [X] Module 2. [Notebook](https://github.com/maxmarkov/mlops-zoomcamp/blob/master/homeworks/WEEK-2/02-homework.ipynb)
-- [X] Module 3. [Notebook](https://github.com/maxmarkov/mlops-zoomcamp/blob/master/homeworks/WEEK-3/03-homework.ipynb)
+- [ ] Module 3. [Notebook](https://github.com/maxmarkov/mlops-zoomcamp/blob/master/homeworks/WEEK-3/03-homework.ipynb)
 - [ ] Module 4.
 - [ ] Module 5.
 - [ ] Module 6.
