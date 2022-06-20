@@ -1,5 +1,15 @@
 # Module 3. Workflow orchestration with Prefect
 
+Contents
+=================
+- [Introduction](#introduction)
+- [Prefect framework](#prefect)
+- [Prefect flow basics](#prefect-basics)
+- [Remote Prefect Orion Deployment on AWS](#prefect-on-aws)
+- [Deployment of Prefect Orion Flow](#prefect-deployment)
+- [Work queues and agents corresponding to different environments](#prefect-different-envs)
+
+<a name="introduction"></a>
 ## 1. Introduction
 
 [Video](https://youtu.be/eKzCjNXoCTc)
@@ -43,6 +53,7 @@ The model accuracy usually decreases over time (see the diagram below, [source](
 
 Since it requires running machine learning pipeline multiple times, it makes sence to automate it with workflow orchestrating tool:
 
+<a name="prefect"></a>
 ## 2. Prefect framework
 
 [Video](https://youtu.be/Yb6NJwI7bXw)
@@ -65,7 +76,7 @@ The image below shows a simple code getting the number of stars for a GitHub rep
 
 The bottom line of code starts a flow consisting of a single task called multiple times from a loop. Tasks and flows are defined with appropriate decorators that include some execution parameters in their definition (number of tries *etc*). These decorators are the only Prefect dependencies here.
 
-
+<a name="prefect-basics"></a>
 ## 3. Prefect flow basics
 
 ### Installing Prefect
@@ -137,6 +148,7 @@ As you pass data between tasks, you find more concentric circles with data depen
 
 **Caching**. Already completed tasks are cached so that they do not run again. If you try to rerun it, the results will be fetched from the cache.
 
+<a name="prefect-on-aws"></a>
 ## 4. Remote Prefect Orion Deployment on AWS
 
 [Video](https://youtu.be/ComkSIAB0k4)
@@ -190,6 +202,7 @@ python prefect_flow.py
 
 Prefect also have a [cloud service](https://beta.prefect.io/auth/login) that can be used to run a Prefect Server instead of AWS. It also has authentification functionality. 
 
+<a name="prefect-deployment"></a>
 ## 5. Deployment of Prefect Orion Flow
 
 [Video](https://youtu.be/xw9JfaWPPps)
@@ -291,6 +304,7 @@ prefect agent start ID
 
 The agent fetches flows from storage (local or remote), unpacks and executes it. The agent is responsible for spinning the environment (like docker container or kubernates pod, if you choose them) to execute the job.
 
+<a name="prefect-different-envs"></a>
 ## 6. Work queues and agents corresponding to different environments
 
 [Video](https://youtu.be/oDSf0ThKsso)
