@@ -339,6 +339,6 @@ We need to create two work queues with two different tags: `prod` and `dev`. Alt
 Finally, start the agents. They will only run flows that match work queues with desired tags.
 
 **Summary**. The work queue is a bridge pointing specific flows to execution environments. Work queues could be filtered by 
-- what deployments work queue lestens to
+- what deployments work queue listens to
 - tags
 - flow runner 
